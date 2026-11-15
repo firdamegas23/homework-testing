@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#root {
+  width: 1126px;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  border-inline: 1px solid var(--border);
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 20px;
+}
+
+section {
+  text-align: justify;
+  margin-top: 50px;
+}
+
+.App {
+  margin: 30px 0 50px 0;
+  padding: 8px;
+  border: 1px solid gray;
+}
+
+.name-input, .email-input, .phone-input {
+  margin: 10px 0;
+}
+
+.fetch-user-button {
+  margin-bottom: 20px;
+}
